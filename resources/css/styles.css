@@ -1,0 +1,178 @@
+h1, h2, h3, h4, p, a {
+    color: black;
+}
+
+h1, h2, .navbar a {
+    color: black;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Maven Pro";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.container {
+    height: 100%;
+    width: 700px;
+    margin: auto;
+    padding: 8px;
+}
+
+h1, h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 3px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, .content, .footer {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+
+    border-bottom: 1px solid #464646;
+}
+
+.nameheader {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin: 10px;
+}
+
+.navbar {
+    flex-direction: row;
+    margin: 10px;
+}
+
+.navbar a {
+    margin: 10px;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+
+#selected {
+    color: black;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project {
+    width: 100%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projectmeta {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.projecttext h3, .projecttext h4 {
+    margin: 3px;
+}
+
+.projecttext h3 {
+    margin-bottom: 0px;
+}
+
+.projecttext h4 {
+    margin-top: 0px;
+    margin-left: 4px;
+}
+
+.projecttext p, a.dtext {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.projecttext a {
+    text-decoration: underline;
+}
+
+.itext {
+    margin-bottom: 8px;
+}
+
+.dtext {
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.pimage {
+    height: 100%;
+    width: 100%;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.pimage div {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+}
+
+.projectmeta div img {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.footer {
+    border-top: 1px solid #464646;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer a {
+    color: black;
+    font-weight: bolder;
+}
