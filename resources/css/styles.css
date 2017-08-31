@@ -45,6 +45,15 @@ h3 {
     font-size: 24px;
 }
 
+h3 a {
+    font-weight: lighter;
+    color: #666666;
+}
+
+h3 a b {
+    color: black;
+}
+
 h4 {
     margin-left: 3px;
     font-size: 18px;
